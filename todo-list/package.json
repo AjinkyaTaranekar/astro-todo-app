@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node server.js",
+    "dev": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "rollup": "^4.22.5",
+    "rollup-plugin-svelte": "^7.2.2",
+    "svelte": "^4.2.19"
+  }
+}
